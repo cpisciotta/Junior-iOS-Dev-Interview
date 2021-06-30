@@ -11,8 +11,6 @@
 		72F5C5B6268CC07400D5E7FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5B5268CC07400D5E7FA /* ContentView.swift */; };
 		72F5C5B8268CC07500D5E7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F5C5B7268CC07500D5E7FA /* Assets.xcassets */; };
 		72F5C5BB268CC07500D5E7FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F5C5BA268CC07500D5E7FA /* Preview Assets.xcassets */; };
-		72F5C5C6268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5C5268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeTests.swift */; };
-		72F5C5D1268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5D0268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +38,7 @@
 		72F5C5BA268CC07500D5E7FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72F5C5BC268CC07500D5E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F5C5C1268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrowSquares Junior iOS Dev Interview Complete CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F5C5C5268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeTests.swift; sourceTree = "<group>"; };
-		72F5C5C7268CC07500D5E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F5C5CC268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrowSquares Junior iOS Dev Interview Complete CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F5C5D0268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeUITests.swift; sourceTree = "<group>"; };
-		72F5C5D2268CC07500D5E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				72F5C5B2268CC07400D5E7FA /* GrowSquares Junior iOS Dev Interview Complete Code */,
-				72F5C5C4268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeTests */,
-				72F5C5CF268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeUITests */,
 				72F5C5B1268CC07400D5E7FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,24 +102,6 @@
 				72F5C5BA268CC07500D5E7FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		72F5C5C4268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				72F5C5C5268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeTests.swift */,
-				72F5C5C7268CC07500D5E7FA /* Info.plist */,
-			);
-			path = "GrowSquares Junior iOS Dev Interview Complete CodeTests";
-			sourceTree = "<group>";
-		};
-		72F5C5CF268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				72F5C5D0268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeUITests.swift */,
-				72F5C5D2268CC07500D5E7FA /* Info.plist */,
-			);
-			path = "GrowSquares Junior iOS Dev Interview Complete CodeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F5C5C6268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F5C5D1268CC07500D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
