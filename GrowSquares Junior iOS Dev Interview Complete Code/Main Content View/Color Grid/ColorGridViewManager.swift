@@ -29,19 +29,6 @@ class ColorGridViewManager: ObservableObject {
         resetGrid()
     }
     
-    // MARK: Index and Row/Column Conversion
-    private func toIndex(_ row: Int, _ col: Int) -> Int {
-        row * cols + col
-    }
-    
-    private func toRow(_ index: Int) -> Int {
-        index / cols
-    }
-    
-    private func toCol(_ index: Int) -> Int {
-        index % cols
-    }
-    
     // MARK: Intent(s)
     func resetGrid() {
         gridCells.removeAll()

@@ -96,10 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				72F5C5B3268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift */,
-				72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */,
-				72F5C5B5268CC07400D5E7FA /* ContentView.swift */,
-				72F5C5E5268CCDD000D5E7FA /* Color Grid */,
-				72F5C5E0268CCB1D00D5E7FA /* ScrollViewContentSection */,
+				72F5C5E8268CF63A00D5E7FA /* Main Content View */,
 				72F5C5B7268CC07500D5E7FA /* Assets.xcassets */,
 				72F5C5BC268CC07500D5E7FA /* Info.plist */,
 				72F5C5B9268CC07500D5E7FA /* Preview Content */,
@@ -130,6 +127,17 @@
 				72F5C5E6268CCDEC00D5E7FA /* ColorGridViewManager.swift */,
 			);
 			path = "Color Grid";
+			sourceTree = "<group>";
+		};
+		72F5C5E8268CF63A00D5E7FA /* Main Content View */ = {
+			isa = PBXGroup;
+			children = (
+				72F5C5E5268CCDD000D5E7FA /* Color Grid */,
+				72F5C5E0268CCB1D00D5E7FA /* ScrollViewContentSection */,
+				72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */,
+				72F5C5B5268CC07400D5E7FA /* ContentView.swift */,
+			);
+			path = "Main Content View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
