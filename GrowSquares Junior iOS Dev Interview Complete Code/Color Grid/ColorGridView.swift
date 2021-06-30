@@ -14,10 +14,32 @@ struct ColorGridView: View {
         let viewManager = ColorGridViewManager(rows: rows, cols: cols, startingColor: startingColor, destinationColor: destinationColor)
         
         _manager = StateObject(wrappedValue: viewManager)
+        
+        let arrangements = repeatElement(GridItem(.flexible(minimum: 0, maximum: .infinity)), count: cols)
+        
+        gridArrangement = Array<GridItem>(arrangements)
     }
     
     var body: some View {
-        Text("Hello, World!")
+        gridView
+    }
+    
+    private let gridArrangement: Array<GridItem>
+    
+    private var gridView: some View {
+        LazyVGrid(columns: gridArrangement, content: {
+            gridContent
+        })
+    }
+    
+    private var gridContent: some View {
+        ForEach(0..<manager.gridCells.count) { index in
+            manager.gridCells[index]
+                .aspectRatio(1, contentMode: .fit)
+                .onTapGesture {
+                    manager.cellTapped(index)
+                }
+        }
     }
 }
 
