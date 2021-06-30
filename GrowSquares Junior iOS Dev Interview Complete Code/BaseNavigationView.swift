@@ -11,6 +11,7 @@ struct BaseNavigationView: View {
     var body: some View {
         NavigationView(content: {
             ContentView()
+                .padding(.horizontal)
                 .navigationTitle("Content")
         })
     }

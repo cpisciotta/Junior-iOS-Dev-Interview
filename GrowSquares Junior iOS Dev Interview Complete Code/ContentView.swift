@@ -19,8 +19,23 @@ struct ContentView: View {
     }
     
     private var contentView: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .leading) {
+            colorGridSectionView
+            
+            imageSectionView
+            
+        }
+    }
+    
+    private var colorGridSectionView: some View {
+        ContentSection(title: "Color Grid", content: ColorGridView(rows: 3, cols: 3, startingColor: .red, destinationColor: .blue))
+    }
+    
+    private var imageSectionView: some View {
+        ContentSection(title: "Picture", content: Image("image_1")
+                        .frame(maxWidth: UIScreen.main.bounds.width * 0.8)
+        )
+        
     }
 }
 
