@@ -11,7 +11,7 @@ import SwiftUI
 struct GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BaseNavigationView()
         }
     }
 }

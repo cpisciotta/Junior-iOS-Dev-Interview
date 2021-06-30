@@ -11,6 +11,7 @@
 		72F5C5B6268CC07400D5E7FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5B5268CC07400D5E7FA /* ContentView.swift */; };
 		72F5C5B8268CC07500D5E7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F5C5B7268CC07500D5E7FA /* Assets.xcassets */; };
 		72F5C5BB268CC07500D5E7FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F5C5BA268CC07500D5E7FA /* Preview Assets.xcassets */; };
+		72F5C5DF268CC9B300D5E7FA /* BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		72F5C5BC268CC07500D5E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F5C5C1268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrowSquares Junior iOS Dev Interview Complete CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F5C5CC268CC07500D5E7FA /* GrowSquares Junior iOS Dev Interview Complete CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrowSquares Junior iOS Dev Interview Complete CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				72F5C5B3268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift */,
+				72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */,
 				72F5C5B5268CC07400D5E7FA /* ContentView.swift */,
 				72F5C5B7268CC07500D5E7FA /* Assets.xcassets */,
 				72F5C5BC268CC07500D5E7FA /* Info.plist */,
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F5C5DF268CC9B300D5E7FA /* BaseNavigationView.swift in Sources */,
 				72F5C5B6268CC07400D5E7FA /* ContentView.swift in Sources */,
 				72F5C5B4268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift in Sources */,
 			);

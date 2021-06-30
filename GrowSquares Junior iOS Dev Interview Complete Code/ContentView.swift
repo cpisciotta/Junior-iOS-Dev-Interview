@@ -9,6 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        scrollView
+    }
+    
+    private var scrollView: some View {
+        ScrollView {
+            contentView
+        }
+    }
+    
+    private var contentView: some View {
         Text("Hello, world!")
             .padding()
     }
