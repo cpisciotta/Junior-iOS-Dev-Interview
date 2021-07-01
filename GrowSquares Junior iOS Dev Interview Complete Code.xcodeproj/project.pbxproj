@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72F5C5B4268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5B3268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift */; };
-		72F5C5B6268CC07400D5E7FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5B5268CC07400D5E7FA /* ContentView.swift */; };
+		72F5C5B6268CC07400D5E7FA /* ScrollableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5B5268CC07400D5E7FA /* ScrollableContentView.swift */; };
 		72F5C5B8268CC07500D5E7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F5C5B7268CC07500D5E7FA /* Assets.xcassets */; };
 		72F5C5BB268CC07500D5E7FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F5C5BA268CC07500D5E7FA /* Preview Assets.xcassets */; };
 		72F5C5DF268CC9B300D5E7FA /* BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		72F5C5B0268CC07400D5E7FA /* GrowSquares Junior iOS Dev Interview Complete Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GrowSquares Junior iOS Dev Interview Complete Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F5C5B3268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift; sourceTree = "<group>"; };
-		72F5C5B5268CC07400D5E7FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72F5C5B5268CC07400D5E7FA /* ScrollableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentView.swift; sourceTree = "<group>"; };
 		72F5C5B7268CC07500D5E7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72F5C5BA268CC07500D5E7FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72F5C5BC268CC07500D5E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				72F5C5E5268CCDD000D5E7FA /* Color Grid */,
 				72F5C5E0268CCB1D00D5E7FA /* ScrollViewContentSection */,
 				72F5C5DE268CC9B300D5E7FA /* BaseNavigationView.swift */,
-				72F5C5B5268CC07400D5E7FA /* ContentView.swift */,
+				72F5C5B5268CC07400D5E7FA /* ScrollableContentView.swift */,
 			);
 			path = "Main Content View";
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			files = (
 				72F5C5DF268CC9B300D5E7FA /* BaseNavigationView.swift in Sources */,
 				72F5C5E4268CCD4B00D5E7FA /* ColorGridView.swift in Sources */,
-				72F5C5B6268CC07400D5E7FA /* ContentView.swift in Sources */,
+				72F5C5B6268CC07400D5E7FA /* ScrollableContentView.swift in Sources */,
 				72F5C5B4268CC07400D5E7FA /* GrowSquares_Junior_iOS_Dev_Interview_Complete_CodeApp.swift in Sources */,
 				72F5C5E7268CCDEC00D5E7FA /* ColorGridViewManager.swift in Sources */,
 				72F5C5E2268CCB2F00D5E7FA /* ContentSection.swift in Sources */,

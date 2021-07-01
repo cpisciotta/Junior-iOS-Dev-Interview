@@ -37,7 +37,7 @@ struct ColorGridView: View {
             manager.gridCells[index]
                 .aspectRatio(1, contentMode: .fit)
                 .onTapGesture {
-                    manager.cellTapped(index)
+                    manager.tapCell(index)
                 }
         }
     }

@@ -10,7 +10,7 @@ import SwiftUI
 struct BaseNavigationView: View {
     var body: some View {
         NavigationView(content: {
-            ContentView()
+            ScrollableContentView()
                 .padding(.horizontal)
                 .navigationTitle("Content")
         })

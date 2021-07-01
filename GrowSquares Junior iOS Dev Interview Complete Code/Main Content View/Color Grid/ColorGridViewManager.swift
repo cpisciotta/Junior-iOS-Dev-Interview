@@ -40,7 +40,7 @@ class ColorGridViewManager: ObservableObject {
         numberOfUntappedCells = totalCells
     }
     
-    func cellTapped(_ index: Int) {
+    func tapCell(_ index: Int) {
         guard gridCells[index] != destinationColor else {
             return
         }
@@ -51,7 +51,7 @@ class ColorGridViewManager: ObservableObject {
     }
     
     // MARK: Board State
-    func allCellsTapped() -> Bool {
+    func areAllCellsTapped() -> Bool {
         return numberOfUntappedCells == 0
     }
 }
